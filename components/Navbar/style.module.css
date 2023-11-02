@@ -1,0 +1,28 @@
+.width10 {
+  width: 30%;
+  cursor: pointer;
+}
+
+.link {
+  cursor: default !important;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pr50 {
+  padding-right: 50px;
+}
+
+.fontSizeLi {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 426px) {
+  .width10 {
+    width: 50%;
+  }
+}

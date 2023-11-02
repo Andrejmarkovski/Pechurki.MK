@@ -1,0 +1,13 @@
+.backgroundColor {
+  background-color: #d8d8d8;
+}
+
+.shadow {
+  filter: drop-shadow(0px 3px 10px black);
+  border-radius: 5px;
+}
+
+.pFontSize {
+  font-size: 20px;
+  line-height: 25px;
+}

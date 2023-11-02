@@ -1,0 +1,48 @@
+.welcomepage {
+  background-color: #d8d8d8;
+  width: 100%;
+}
+
+.pFontSize {
+  font-size: 25px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.h4cra {
+  position: absolute;
+  bottom: 13%;
+  color: white;
+  margin: 0;
+  width: 95%;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 426px) {
+  .fontsizetelcrausel {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 800px) {
+  .fontsizetelcrausel {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1420px) {
+  .fontsize18crausel {
+    font-size: 18px;
+  }
+  .fontsizetelcrausel {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1430px) {
+  .pFontSize {
+    line-height: 40px;
+  }
+}
