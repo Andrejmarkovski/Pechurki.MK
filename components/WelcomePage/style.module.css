@@ -24,20 +24,43 @@
   .fontsizetelcrausel {
     font-size: 20px;
   }
-}
-
-@media only screen and (min-width: 440px) and (max-width: 800px) {
-  .fontsizetelcrausel {
-    font-size: 18px;
+  .paddingtop {
+    padding-top: 30px;
   }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 1420px) {
+@media only screen and (min-width: 426px) and (max-width: 760px) {
+  .fontsizetelcrausel {
+    font-size: 18px;
+  }
+  .paddingtop {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1020px) {
   .fontsize18crausel {
     font-size: 18px;
   }
   .fontsizetelcrausel {
     font-size: 20px;
+  }
+  .imgwidth {
+    width: 100% !important;
+  }
+  .ptag {
+    font-size: 15px;
+    bottom: 25%;
+  }
+}
+
+@media only screen and (min-width: 1021px) {
+  .imgwidth {
+    width: 100% !important;
+  }
+
+  .ptag {
+    bottom: 18%;
   }
 }
 

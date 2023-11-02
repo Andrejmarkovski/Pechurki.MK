@@ -15,7 +15,7 @@ export default function TellingAboutMush() {
           </div>
           <div className="col-6 telefontCardscol text-center">
             <p
-              className={`${style.pFontSize}  mt-16 mb-0 fontsize fontsize16fortablet`}
+              className={`${style.pFontSize} ${style.paddingtop}  mt-16 mb-0 fontsize fontsize16fortablet`}
             >
               Во однос на препознавањето на видовите габи во смисла дали се
               отровни или не, не постои правило, ниту начин или постапка според

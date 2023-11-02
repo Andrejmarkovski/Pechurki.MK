@@ -21,8 +21,14 @@
   font-size: 25px;
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (min-width: 0px) and (max-width: 425px) {
   .width10 {
-    width: 50%;
+    width: 60px !important;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .width10 {
+    width: 55px;
   }
 }

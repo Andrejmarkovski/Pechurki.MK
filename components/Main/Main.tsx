@@ -6,7 +6,7 @@ export default function Main() {
         autoPlay
         muted
         loop
-        src="/video/202310222038.mp4"
+        src="/video/newnew.mp4"
       ></video>
     </div>
   );

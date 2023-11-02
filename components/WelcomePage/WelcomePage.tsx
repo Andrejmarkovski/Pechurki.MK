@@ -60,14 +60,16 @@ export default function WelcomePage() {
               печурките.
             </p>
           </div>
-          <div className="col-6 position-relative d-flex align-items-center justify-content-center telefontCardscol">
+          <div
+            className={`col-6  position-relative d-flex align-items-center justify-content-center telefontCardscol ${style.paddingtop}`}
+          >
             <img
               src={images[currentIndex].img}
-              className="d-block w-75 nonact"
+              className={`d-block w-75 nonact ${style.imgwidth}`}
               alt="..."
             />
             <p
-              className={`${style.h4cra} text-center ${style.fontsizetelcrausel}`}
+              className={`${style.h4cra} ${style.ptag}  text-center ${style.fontsizetelcrausel}`}
             >
               {images[currentIndex].text} <br /> ({images[currentIndex].latname}
               )
