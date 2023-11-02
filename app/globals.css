@@ -165,7 +165,7 @@ i {
   transform: translateZ(20px);
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (min-width: 0px) and (max-width: ) {
   .video425px {
     height: 239px;
   }
